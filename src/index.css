@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+/* Pages */
+.section-page {
+  padding: 1rem;
+}
+
+.logo-page {
+  color: #3b82f6;
+}
+
+.logo-page-bg {
+  border-radius: 100%;
+  background: #dbeafe;
+  padding: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .section-page {
+    padding: 1.5rem;
+  }
+
+  .logo-page {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .logo-page-bg {
+    padding: 0.75rem;
+  }
+
+  .kpi-container {
+    padding: 1.5rem;
+  }
+
+  .kpi-title {
+    font-size: 0.875rem;
+  }
+
+  .kpi-amount {
+    font-size: 3rem;
+  }
+
+  .kpi-comparaison {
+    font-size: 0.875rem /* 14px - sm */;
+  }
+
+  .graphic-container {
+    padding: 1.5rem /* 24px - p-6 */;
+  }
+
+  .graphic-container-title {
+    font-size: 1.125rem !important /* sm:text-lg (18px) */;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-page {
+    padding: 2rem;
+  }
+}
+
+/* title page */
+.title-page {
+  font-weight: bold;
+  color: #1e2939;
+  font-size: 1.25rem;
+}
+
+/* === TransactionsForm === */
+
+/* Form labels  */
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #364153;
+  margin-bottom: 4px;
+}
+
+/* Form selects */
+.form-select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5dc;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.form-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6;
+  border-color: transparent;
+}
+
+/* Form inputs */
+.form-input {
+  width: 100%;
+  padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+  border: 1px solid #d1d5dc;
+  border-radius: 0.5rem;
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6;
+  border-color: transparent;
+}
+
+/* Form input v2 */
+.form-input-v2 {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5dc;
+  border-radius: 0.5rem;
+}
+
+.form-input-v2:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6;
+  border-color: transparent;
+}
+
+/* Form cancel button */
+.form-cancel-button {
+  display: flex;
+  border: 1px solid #d1d5dc;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  color: #364153;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  gap: 0.5rem;
+}
+
+.form-cancel-button:hover {
+  background-color: #f9fafb;
+}
+
+/* === AccountPage === */
+
+/* stats title */
+.stats-title {
+  font-size: 0.875rem;
+  color: #6a7282;
+}
+
+/* stats container */
+.stats-container {
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/* === Dashboard component ===*/
+.kpi-container {
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.kpi-title {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.kpi-amount {
+  font-size: 1.5rem /* 20px - xl */;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kpi-comparaison {
+  font-size: 0.75rem /* 12px - xs */;
+  font-weight: 500;
+}
+
+/* === IncomsVsExpenses - PieChartExpenses components ===*/
+.graphic-container {
+  padding: 1rem;
+  background: white;
+  border-radius: 0.75rem /* 12px - xl */;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.graphic-container-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
