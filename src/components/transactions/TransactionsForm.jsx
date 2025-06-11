@@ -1,7 +1,7 @@
 import { DollarSign, Edit3, PlusCircle, RefreshCcw, X } from "lucide-react";
 import { formatDate, generateId } from "../../utils/utils";
 import { useEffect, useState } from "react";
-import categories from "/Users/macbookairm1/Desktop/Programme Apprentissage/Frontend/ReactProjects/FrelanceProjets/FinancialMAppProject/src/data/categories.js";
+import categories from "../../data/categories.js";
 
 function TransactionsForm({
   editionMode,
